@@ -6,9 +6,9 @@ namespace HotelProject.BusinessLayer.Concrete;
 
 public class ServiceManager : IServiceService
 {
-    private readonly IServiceDal _ServiceDal;
+    private readonly IServicesDal _ServiceDal;
 
-    public ServiceManager(IServiceDal ServiceDal)
+    public ServiceManager(IServicesDal ServiceDal)
     {
         _ServiceDal=ServiceDal;
     }
